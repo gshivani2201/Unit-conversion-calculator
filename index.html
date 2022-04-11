@@ -1,5 +1,11 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" description="This is a unit conversion meter. It converts units in terms of mass, volume and lenght.">
+        <meta name="keywords" keywords="unit converter">
+        <title>Unit Conversion Meter</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,24 +14,25 @@
     <body>
         <div class="board">
             <h1>Metric/Imperial unit conversion</h1>
-            <span id="digit-el" input="convert()">0</span>
+            <span id="digit-el" contenteditable="true">0</span>
         </div>
             
         <div class="section">
             <h3>Length (Meter/Feet)</h3>
-            <p id="length()">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
         </div>
         
         <div class="section">
             <h3>Volume (Liters/Gallons)</h3>
-            <p id="volume()">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            <p id="volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
         </div>
             
         <div class="section">
             <h3>Mass (Kilograms/Pounds)</h3>
-            <p id="mass()">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            <p id="mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
         </div>
         
         <script src="js/main.js"></script>
     </body>
 </html>
+ 
